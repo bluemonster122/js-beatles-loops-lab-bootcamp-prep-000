@@ -7,10 +7,17 @@ function theBeatlesPlay(musicians, instruments) {
   return ret
 }
 
-function jognLennonFacts(array) {
+function johnLennonFacts(array) {
   let counter = 0;
   while (counter < array.length) {
     array[counter] += `!!!`
   }
   return array;
+}
+
+function iLoveTheBeatles(n) {
+  let ret = []
+  do {
+    ret.push()`I love the Beatles!`)
+  } while (--n > 0)
 }
