@@ -18,6 +18,7 @@ function johnLennonFacts(array) {
 function iLoveTheBeatles(n) {
   let ret = []
   do {
-    ret.push()`I love the Beatles!`)
+    ret.push(`I love the Beatles!`)
   } while (--n > 0)
+  return ret
 }
